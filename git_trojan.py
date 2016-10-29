@@ -38,7 +38,10 @@ def get_file_contents(filepath):
 				blob = repo.blob(filename._json_data['sha'])
 				return blob.content
 	return None
+<<<<<<< HEAD
 	
+=======
+>>>>>>> c18e1c68f27ea67bafd3a9fd595649f3e813fd5c
 
 def get_trojan_config():
 	global configured
